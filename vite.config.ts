@@ -2,6 +2,7 @@ import { defineConfig } from "vite";
 import pageTitle from "./src/plugins/pageTitle";
 import modePageTitle from "./src/plugins/modePageTitle";
 import buildInfo from "./src/plugins/buildInfo";
+import removeLogs from "./src/plugins/removeLogs";
 
 export default defineConfig({
   build: {
@@ -9,5 +10,5 @@ export default defineConfig({
       polyfill: false,
     },
   },
-  plugins: [buildInfo()],
+  plugins: [buildInfo(), removeLogs()],
 });

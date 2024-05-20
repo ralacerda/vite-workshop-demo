@@ -9,6 +9,7 @@ export default function removeLogs(): Plugin {
     apply: "build",
     transform(src, id) {
       if (extensions.includes(path.extname(id))) {
+        console.log(src);
         src.replace(/console\.log\((.*?)\);?/g, "");
       }
 
