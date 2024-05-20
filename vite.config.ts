@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
 import pageTitle from "./plugins/pageTitle";
 import modePageTitle from "./plugins/modePageTitle";
+import buildInfo from "./plugins/buildInfo";
 
 export default defineConfig({
   build: {
@@ -8,5 +9,5 @@ export default defineConfig({
       polyfill: false,
     },
   },
-  plugins: [modePageTitle({ title: "Renato" })],
+  plugins: [buildInfo()],
 });
