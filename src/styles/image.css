@@ -1,0 +1,22 @@
+body {
+  overflow: hidden;
+}
+
+.background {
+  background-image: url("../image/sea.jpg");
+  background-size: cover;
+  display: block;
+  margin: auto;
+  position: absolute;
+  inset: -5px;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  filter: brightness(1.2) blur(12px);
+  transform: scale(1.1);
+}
+
+img {
+  display: block;
+  margin: 92px auto;
+}
