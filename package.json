@@ -18,7 +18,9 @@
   "dependencies": {
     "@types/is-even": "^1.0.2",
     "@types/node": "^20.12.12",
+    "@vitejs/plugin-vue": "^5.0.4",
     "is-even": "^1.0.0",
-    "vite-plugin-build-info": "link:../plugins/buildInfo"
+    "vite-plugin-build-info": "link:../plugins/buildInfo",
+    "vue": "^3.4.27"
   }
 }
