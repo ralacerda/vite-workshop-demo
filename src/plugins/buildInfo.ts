@@ -15,7 +15,7 @@ export default function buildInfo(): Plugin {
   const resolvedVirtualModuleId = "\0" + virtualModuleId;
 
   return {
-    name: "currentSha", // required, will show up in warnings and errors
+    name: "build-info", // required, will show up in warnings and errors
     resolveId(id) {
       if (id === virtualModuleId) {
         return resolvedVirtualModuleId;

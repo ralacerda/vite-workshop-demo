@@ -8,7 +8,7 @@ export default function modePageTitle(options?: Options): Plugin {
   let config: ResolvedConfig;
 
   return {
-    name: "vite-plugin-page-title",
+    name: "mode-page-title",
     configResolved(resolvedConfig) {
       config = resolvedConfig;
     },

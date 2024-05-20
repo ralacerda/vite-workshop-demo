@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
-import pageTitle from "./plugins/pageTitle";
-import modePageTitle from "./plugins/modePageTitle";
-import buildInfo from "./plugins/buildInfo";
+import pageTitle from "./src/plugins/pageTitle";
+import modePageTitle from "./src/plugins/modePageTitle";
+import buildInfo from "./src/plugins/buildInfo";
 
 export default defineConfig({
   build: {
