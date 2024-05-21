@@ -23,5 +23,5 @@
       "@modules/*": ["./modules/*"]
     }
   },
-  "include": ["src"]
+  "include": ["src", "plugins"]
 }

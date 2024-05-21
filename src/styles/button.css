@@ -1,0 +1,30 @@
+/* CSS */
+button {
+  background-color: #173152;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  margin-inline: auto;
+  margin-top: 48px;
+  font-family: system-ui;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  outline: none;
+  padding: 10px 16px;
+  text-align: center;
+  transition: color 100ms;
+  user-select: none;
+}
+
+button:hover,
+button:focus-visible {
+  background-color: #1f3c5c;
+}
+
+button:active {
+  background-color: #122741;
+}
