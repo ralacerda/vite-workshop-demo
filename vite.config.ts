@@ -4,6 +4,7 @@ import modePageTitle from "./plugins/modePageTitle";
 import buildInfo from "./plugins/buildInfo";
 import removeLogs from "./plugins/removeLogs";
 import vue from "@vitejs/plugin-vue";
+import coolStyles from "./plugins/coolStyles";
 
 export default defineConfig({
   build: {
@@ -11,5 +12,5 @@ export default defineConfig({
       polyfill: false,
     },
   },
-  plugins: [buildInfo(), removeLogs(), vue()],
+  plugins: [buildInfo(), removeLogs(), vue(), coolStyles()],
 });

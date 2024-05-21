@@ -13,4 +13,5 @@ const button = document.querySelector("button") as HTMLButtonElement;
 button.addEventListener("click", async () => {
   const { getUsers } = await import(`./async/index.ts`);
   console.dir(getUsers());
+  import.meta.hot?.send("ok");
 });
