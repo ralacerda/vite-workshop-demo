@@ -20,6 +20,9 @@ importers:
       is-even:
         specifier: ^1.0.0
         version: 1.0.0
+      sirv:
+        specifier: ^2.0.4
+        version: 2.0.4
       vite-plugin-build-info:
         specifier: link:../plugins/buildInfo
         version: link:../plugins/buildInfo

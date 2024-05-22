@@ -11,7 +11,7 @@ function getCurrentTimeAndDate() {
 }
 
 export default function buildInfo(): Plugin {
-  const virtualModuleId = "virtual:currentSha";
+  const virtualModuleId = "virtual:buildInfo";
   const resolvedVirtualModuleId = "\0" + virtualModuleId;
 
   return {

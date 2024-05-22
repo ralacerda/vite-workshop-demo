@@ -3,4 +3,5 @@ h2,
 p {
   text-align: center;
   font-family: system-ui;
+  color: var(--primary, black);
 }
